@@ -22,7 +22,6 @@ const CostomButton = ({
 </Text>
 )}
 </View>
-<Text>CustomButton</Text>
 </TouchableOpacity>
     )
 }

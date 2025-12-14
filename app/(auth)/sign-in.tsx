@@ -1,6 +1,6 @@
 import { Link, router } from "expo-router";
 import { useState } from "react";
-import { Alert, Button, Text, View } from "react-native";
+import { Alert, Text, View } from "react-native";
 import CostomInput from "../../components/CostomInput";
 import CostomButton from "../../components/costomButton";
 
@@ -26,9 +26,7 @@ const Submit = async ()=>{
 
 
 return (
-    <View className=" gap-10 bg-white rounded-lg p-5 mt-5">
-        <Text>SignIn</Text>
-        <Button title="Sign-In" onPress={()=> router.push("/sign-up")}/>
+    <View className=" gap-10 bg-white rounded-lg mt-6 p-16 ">
 <CostomInput
 placeholder="Enter your Email"
 value={form.email}
@@ -48,11 +46,11 @@ title="Sign In"
 isLoading={isSubmitting}
 onPress={Submit}
 />
-<View className=" flex  justify-center mt-5 flex-row gap-2" >
-<Text className=" base-regular text-gray-100">
-Don't have an Account
+<View className=" flex w-full  justify-center flex-row gap-2" >
+<Text className=" base-regular text-gray-100 font-quicksand-medium">
+Don't have an Account ?
 </Text>
-<Link  href="/sign-up" className=" base-bold text-primary">
+<Link  href="/sign-up" className=" text-[20px]  text-primary  font-quicksand-medium">
 Sign Up
 </Link>
 </View>

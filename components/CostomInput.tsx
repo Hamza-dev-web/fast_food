@@ -24,7 +24,7 @@ onFocus={()=> setIsFocused(true)}
 onBlur={()=> setIsFocused(false)}
 placeholder={placeholder}
 placeholderTextColor="#888"
-className={cn('input' , isFocus ? "border-primary" :"border-gray-300")}
+className={cn('input' , isFocus ? "border-primary font-quicksand-semibold" :"border-gray-300 font-quicksand-semibold",)}
 />
 </View>
     )

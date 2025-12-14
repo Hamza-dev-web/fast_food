@@ -1,5 +1,6 @@
 import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
+
 export default function RootLayout() {
   const [fontsLoaded, error] = useFonts({
     "QuickSand-Bold": require('../assets/fonts/Quicksand-Bold.ttf'),

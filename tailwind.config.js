@@ -24,9 +24,9 @@ module.exports = {
       fontFamily: {
         quicksand: ["Quicksand-Regular", "cursive"],
         "quicksand-bold": ["Quicksand-Bold", "cursive"],
-        "quicksand-semibold": ["Quicksand-SemiBold", "cursive"],
+        "quicksand-semibold": ["cursive", "cursive"],
         "quicksand-light": ["Quicksand-Light", "cursive"],
-        "quicksand-medium": ["Quicksand-Medium", "cursive"],
+        "quicksand-medium": ["cursive", "cursive"],
       },
     },
   },
